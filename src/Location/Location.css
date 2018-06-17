@@ -1,0 +1,22 @@
+#location__form {
+    background:transparent;
+    position: fixed;
+    z-index: 99999;    
+    width: 100%;
+    display: flex;    
+    flex-direction: column;
+    margin-left:auto
+}
+
+.group {    
+    max-width: 50%;
+    margin-left: auto;
+}
+
+.group > input, button{
+    margin: 3px;
+    padding: 5px;
+    width: 100%;
+    border: 1px inset;
+    border-radius: 5px;
+}
